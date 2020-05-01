@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Internetbanking Testing" duration-ms="48847" started-at="2020-04-30T17:15:08 EDT" finished-at="2020-04-30T17:15:57 EDT">
+    <groups>
+    </groups>
+    <test name="Banking Test" duration-ms="48847" started-at="2020-04-30T17:15:08 EDT" finished-at="2020-04-30T17:15:57 EDT">
+      <class name="TestCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_LoginTest_001@53f65459]" name="setup" is-config="true" duration-ms="16469" started-at="2020-04-30T17:15:08 EDT" finished-at="2020-04-30T17:15:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestCases.TC_LoginTest_001@53f65459]" name="loginTest" duration-ms="1656" started-at="2020-04-30T17:15:25 EDT" finished-at="2020-04-30T17:15:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="terdown()[pri:0, instance:TestCases.TC_LoginTest_001@53f65459]" name="terdown" is-config="true" duration-ms="1148" started-at="2020-04-30T17:15:26 EDT" finished-at="2020-04-30T17:15:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+      </class> <!-- TestCases.TC_LoginTest_001 -->
+      <class name="TestCases.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_AddCustomerTest_003@3b088d51]" name="setup" is-config="true" duration-ms="13460" started-at="2020-04-30T17:15:27 EDT" finished-at="2020-04-30T17:15:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:TestCases.TC_AddCustomerTest_003@3b088d51]" name="addNewCustomer" duration-ms="14779" started-at="2020-04-30T17:15:41 EDT" finished-at="2020-04-30T17:15:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="terdown()[pri:0, instance:TestCases.TC_AddCustomerTest_003@3b088d51]" name="terdown" is-config="true" duration-ms="1146" started-at="2020-04-30T17:15:56 EDT" finished-at="2020-04-30T17:15:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+      </class> <!-- TestCases.TC_AddCustomerTest_003 -->
+    </test> <!-- Banking Test -->
+  </suite> <!-- Internetbanking Testing -->
+</testng-results>
